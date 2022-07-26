@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <b>Hello <i>Board Infinity</i> this index file contains all the hyperlinks of this Js Basic Programming project
+    Questions</b>
+  <ol type="1">
+    <li><a href="Js_Assignment/problem1.html">Problem 1 </a></li>
+    <li><a href="Js_Assignment/problem2.html">Problem 2 </a></li>
+    <li><a href="Js_Assignment/problem3.html">Problem 3 </a></li>
+    <li><a href="Js_Assignment/problem4.html">Problem 4 </a></li>
+    <li><a href="Js_Assignment/problem5.html">Problem 5 </a></li>
+    <li><a href="Js_Assignment/problem6.html">Problem 6 </a></li>
+    <li><a href="Js_Assignment/problem7.html">Problem 7 </a></li>
+    <li><a href="Js_Assignment/problem8.html">Problem 8 </a></li>
+    <li><a href="Js_Assignment/problem10.html">Problem 10 </a></li>
+    <li><a href="Js_Assignment/problem11.html">Problem 11 </a></li>
+    <li><a href="Js_Assignment/problem12.html">Problem 12 </a></li>
+    <li><a href="Js_Assignment/problem13.html">Problem 13 </a></li>
+    <li><a href="Js_Assignment/problem14.html">Problem 14 </a></li>
+    <li><a href="Js_Assignment/problem15.html">Problem 15 </a></li>
+
+  </ol>
+  //Print the two values of X after rounding off to 2 decimal places if required.
+  <script>
+
+    function root(a, b, c) {
+      let root1, root2;
+      let discriminant = b ** 2 - 4 * a * c
+      if (discriminant > 0) {
+        root1 = ((-b + Math.sqrt(discriminant)) / 2 * a).toFixed(2);
+        root2 = ((-b - Math.sqrt(discriminant)) / 2 * a).toFixed(2);
+        // result
+        return ` ${root1} ${root2}`;
+      } else if (discriminant == 0) {
+        root1 = root2 = (-b / 2 * a).toFixed(2);
+        // result
+        return ` ${root1} ${root2}`;
+      }
+    }
+    let ans = root(1, 6, 8);
+    console.log("2 decimal places are:" + (ans));
+  </script>
+</body>
+
+</html>
